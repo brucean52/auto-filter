@@ -1,8 +1,6 @@
 const { gql } = require('apollo-server');
 
 const typeDefs = gql`
-  # Comments in GraphQL are defined with the hash (#) symbol.
-
   type Car {
     Make: String
     Model: String
@@ -10,12 +8,17 @@ const typeDefs = gql`
     Transmission: String
     Drivetrain: String
     Weight: Int
-    MPG: String
   }
 
   # The "Query" type is the root of all GraphQL queries.
   type Query {
-    cars: [Car]
+    carSelect: [Car],
+    carFilter(
+      make: String, 
+      model: String, 
+      hpLow: Boolean, 
+      hpMid: Boolean, 
+      hpHigh: Boolean): [Car]
   }
 `;
 module.exports = typeDefs;
