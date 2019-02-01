@@ -15,6 +15,14 @@ label {
   width: 90%;
   margin: auto;
 }
+
+.container {
+  display: inline-flex;
+  width:100%;
+}
+.chart-container {
+  margin-top: 2%;
+}
 .horsepower {
   display: inline-block;
   width: 30%;
@@ -24,12 +32,11 @@ label {
   font-family: 'Montserrat';
   display: flex;
   flex-flow: column nowrap;
-  margin-top: 2%;
+  margin: 2% 5% 0 0;
   line-height: 1.5;
   flex: 1 1 auto;
   overflow-y: auto;
   min-width: auto;
-  width: 80%;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 .th {
@@ -69,4 +76,14 @@ label {
   white-space: nowrap;
   border-bottom: 1px solid #d0d0d0;
   text-align: left;
+}
+.tableHead > .th:last-child, tr > .td:last-child {
+  display: block;
+  text-align: center;
+}
+
+.label > text{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
 }

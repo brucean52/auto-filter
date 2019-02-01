@@ -4,6 +4,8 @@ import { faCarSide } from '@fortawesome/free-solid-svg-icons'
 import Select from './components/Select';
 import Checkbox from './components/Checkbox';
 import Table from './components/Table';
+import ChartContainer from './components/ChartContainer';
+import '../node_modules/react-vis/dist/style.css';
 import './App.css';
 
 class App extends Component {
@@ -48,7 +50,10 @@ class App extends Component {
           <Select make={make} model={model} handleSelect={this.handleSelect}/>
           <Checkbox hpLow={hpLow} hpMid={hpMid} hpHigh={hpHigh} handleCheckbox={this.handleCheckbox}/>
         </div>
-        <Table make={make} model={model} hpLow={hpLow} hpMid={hpMid} hpHigh={hpHigh}/>
+        <div className="container">
+          <Table make={make} model={model} hpLow={hpLow} hpMid={hpMid} hpHigh={hpHigh}/>
+          <ChartContainer make={make} model={model} hpLow={hpLow} hpMid={hpMid} hpHigh={hpHigh}/>        
+        </div>
       </div>
     );
   }

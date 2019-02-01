@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Checkbox = props => (
   <div className="horsepower">
@@ -11,5 +12,17 @@ const Checkbox = props => (
     <label >350 or more</label>
   </div>  
 ) 
+
+Checkbox.propTypes = {
+  hpLow: PropTypes.bool.isRequired,
+  hpMid: PropTypes.bool.isRequired,
+  hpHigh: PropTypes.bool.isRequired
+}
+
+Checkbox.defaultProps = {
+  hpLow: true,
+  hpMid: true,
+  hpHigh: true
+}
 
 export default Checkbox;

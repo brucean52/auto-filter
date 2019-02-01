@@ -1,8 +1,9 @@
 # AutoFilter
 
-Learning GraphQL by filtering data
+A React and Apollo GraphQL Tutorial.
 
-- [Tutorial](https://modern-dev.us/c/Tutorial/p/12252018/learning-graphql-by)
+- [Learning GraphQL by Filtering Data](https://modern-dev.us/c/Tutorial/p/12252018/learning-graphql-by)
+- [Data Visualization with React-Vis](https://modern-dev.us/c/Tutorial/p/1312019/data-visualization-with)
 - [Data Source](https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy)
 
 ## Quickstart
