@@ -19,3 +19,6 @@ npm install
 ```
 
 >1. `npm run dev` - Runs front and back end servers concurrently
+
+localhost:3000 - App
+localhost:4000/graphql - GraphQL Playground
