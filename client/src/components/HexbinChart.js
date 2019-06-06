@@ -19,8 +19,8 @@ class HexbinChart extends Component {
 
     return (
       <XYPlot
-        width={800}
-        height={600}
+        width={700}
+        height={500}
         onMouseLeave={() => this.setState({hovered: null})}
         margin={{left: 80, right: 40, top: 40, bottom: 40}}
       >
