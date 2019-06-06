@@ -8,6 +8,8 @@ A React and Apollo GraphQL Tutorial.
 
 ## Quickstart
 
+Install node modules in both the root and client directory
+
 ```
 root directory
 npm install 
