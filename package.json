@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/brucean52/auto-filter#readme",
   "dependencies": {
-    "apollo-server": "^2.3.1",
-    "graphql": "^14.0.2"
+    "apollo-server": "^2.6.1",
+    "graphql": "^14.3.1"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.19.1"
   }
 }
